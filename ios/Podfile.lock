@@ -7,11 +7,14 @@ PODS:
   - flutter_inappwebview_ios/Core (0.0.1):
     - Flutter
     - OrderedSet (~> 6.0.3)
+  - flutter_native_splash (2.4.3):
+    - Flutter
   - OrderedSet (6.0.3)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
 
 SPEC REPOS:
   trunk:
@@ -22,12 +25,15 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_inappwebview_ios:
     :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   flutter_inappwebview_ios: 6f63631e2c62a7c350263b13fa5427aedefe81d4
+  flutter_native_splash: df59bb2e1421aa0282cb2e95618af4dcb0c56c29
   OrderedSet: e539b66b644ff081c73a262d24ad552a69be3a94
 
-PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+PODFILE CHECKSUM: 50fc7d6f2ead58ae67884ae353a30cbbe55c1ce0
 
 COCOAPODS: 1.16.2
