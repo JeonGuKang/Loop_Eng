@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_inappwebview: ^6.1.5
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
@@ -97,3 +98,15 @@ flutter_launcher_icons:
   image_path: "assets/icon/app_icon.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   remove_alpha_ios: true # iOS에서 알파 채널 제거
+
+# Flutter Native Splash 설정
+flutter_native_splash:
+  color: "#7C4DFF"  # 앱 테마에 맞는 보라색
+  image: assets/splash/splash.png
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+  android_12:
+    image: assets/splash/splash.png
+    icon_background_color: "#7C4DFF"
+    icon_background_color_dark: "#7C4DFF"
